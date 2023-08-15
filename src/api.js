@@ -13,7 +13,7 @@ async function changeWeatherData(e)
       })
     .then(function(response) {
       weatherData = response.current;
-      setData;
+      setData();
     })
 }
 

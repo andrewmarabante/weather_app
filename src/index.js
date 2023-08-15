@@ -7,8 +7,6 @@ let currentLocation;
 
 const check = document.getElementById('check');
 check.addEventListener('click', changeWeatherData);
-const bla = document.getElementById('bla');
-bla.addEventListener('click', setData)
 
 
 function setData()
