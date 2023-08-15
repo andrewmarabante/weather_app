@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    min-height: 5em;
+    background-color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 600px;
+    padding: 0px;
+    border-bottom: groove 5px grey;
+}
+
+input{
+    text-align: center;
+    font-size: .8em;
+    border-radius: .5em;
+}
+
+#check{
+    padding: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: aqua;
+    border: none;
+    border-radius: .5em;
+}
+
+#data{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8em;
+    background-image: url(../images/weather.webp);
+    background-size: cover;
+}
+
+#data div{
+    margin-bottom: 3em;
+    font-size: 1.5em;
+    font-weight: 600px;
+}
+
+#check:hover{
+    background-color: rgb(26, 170, 170);
+}

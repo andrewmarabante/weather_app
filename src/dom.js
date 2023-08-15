@@ -7,9 +7,9 @@ function displayData(data)
     const temp = document.createElement('div');
     const wind = document.createElement('div');
     const humidity = document.createElement('div');
-    temp.innerHTML = data.fahrenheit;
-    wind.innerHTML = data.wind;
-    humidity.innerHTML = data.humidity;
+    temp.innerHTML = 'Temperature: ' + data.fahrenheit + ' Fahrenheit';
+    wind.innerHTML = 'Wind Speed: ' + data.wind + ' mph';
+    humidity.innerHTML = 'Humidity: ' + data.humidity + '%';
     datadiv.appendChild(temp);
     datadiv.appendChild(wind);
     datadiv.appendChild(humidity);
