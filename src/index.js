@@ -1,4 +1,5 @@
 import { changeWeatherData, processData } from "./api";
+import { displayData } from "./dom";
 export {weatherData, currentLocation, setData}
 let weatherData;
 let processedData;
@@ -12,7 +13,6 @@ bla.addEventListener('click', setData)
 
 function setData()
 {
-    console.log(weatherData);
     processedData = new processData(weatherData);
-    console.log(processedData);
+    displayData(processedData);
 }
